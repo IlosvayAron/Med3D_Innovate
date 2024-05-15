@@ -1,0 +1,42 @@
+.container .inputBox input, .form {
+  width: 30%;
+  background: rgba(255,255,255,0.6);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 700;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.form {
+  width: 100%;
+}
+
+.tx-area{
+  background: rgba(255,255,255,0.6);
+  border: none;
+  outline: none;
+}
+
+// .comments {
+//   background-color: none;
+// }
+
+.container .inputBox input:hover {
+  background: rgba(255,255,255,0.5);
+}
+
+// .container .inputBox input[type="submit"] {
+//   background: #fff;
+//   color: #666;
+//   max-width: 100px;
+//   margin-bottom: 20px;
+//   font-weight: 600;
+// }

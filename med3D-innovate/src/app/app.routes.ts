@@ -5,6 +5,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 import { SignInComponent } from './components/sign-in/sign-in.component';
 
 export const routes: Routes = [
+  {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'contact-us', component: ContactUsComponent},

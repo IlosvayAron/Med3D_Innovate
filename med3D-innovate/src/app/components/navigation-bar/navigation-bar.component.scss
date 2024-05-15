@@ -10,7 +10,8 @@
   cursor: default;
 }
 
-#nav li a:hover {
+#nav li a:hover, .active {
   color: #18afb4 !important;
   transition: .3;
+  font-weight: 600;
 }

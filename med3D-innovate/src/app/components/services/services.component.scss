@@ -1,0 +1,51 @@
+.card {
+  background: rgba(255,255,255,.2);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0,0,0,.1);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.card:hover {
+  // min-width: 40%;
+  transform: translate3D(0,-1px,0) scale(1.03); /* move up slightly and zoom in */
+  box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+  transition: all .3s ease; /* zoom in */
+  cursor: pointer;
+}
+
+h5, p {
+  color: #fff;
+}
+
+.inputBox input {
+  width: 40%;
+  background: rgba(255,255,255,0.2);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  // border: 1px solid rgba(255,255,255,0.5);
+  // border-right: 1px solid rgba(255,255,255,0.2);
+  // border-bottom: 1px solid rgba(255,255,255,0.2);
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.inputBox input[type="button"] {
+  background: #fff;
+  color: #666;
+  max-width: 100px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.inputBox input[type="button"]:hover {
+  background: #ffffffe3;
+  color: #666666de;
+}
