@@ -1,0 +1,16 @@
+#nav {
+  background: rgba(255,255,255,.1);
+  // background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid rgba(255,255,255,.2);
+  // -webkit-backdrop-filter: blur(10px);
+}
+
+#logo {
+  cursor: default;
+}
+
+#nav li a:hover {
+  color: #18afb4 !important;
+  transition: .3;
+}
